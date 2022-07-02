@@ -1,0 +1,161 @@
+/** @format */
+
+body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 20px 0px;
+	margin: 0px;
+}
+#name {
+	text-align: center;
+	color: rgb(32, 183, 133);
+}
+.paragraph {
+	color: rgb(235, 8, 8);
+	width: 50%;
+	text-align: center;
+}
+a {
+	color: black;
+}
+a:hover {
+	color: aqua;
+}
+.image {
+	width: 80%;
+	height: 300px;
+	border-radius: 20px;
+	object-fit: fill;
+}
+.table {
+	border: 1px solid;
+	border-color: rgb(58, 53, 53);
+	width: 30%;
+}
+td {
+	border: 1px solid;
+	border-color: darkgray;
+}
+
+ul {
+	list-style-type: square;
+	width: 23%;
+}
+
+ul > li {
+	color: rgb(18, 247, 243);
+	font-style: italic;
+}
+
+ol {
+	list-style-type: lower-roman;
+	width: 23%;
+}
+
+ol > li {
+	color: rgb(94, 120, 60);
+	font-weight: 700;
+}
+form {
+	border: 1px dashed;
+	width: 30%;
+	padding: 5px;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 5px;
+}
+input {
+	background-color: black;
+	width: 70%;
+	height: 30px;
+	margin: 5px;
+	border-radius: 8px;
+	border: 0px;
+	padding: 0px 5px;
+	color: aqua;
+}
+input:focus {
+	border: 0px;
+}
+
+input::placeholder {
+	color: aqua;
+}
+form > p {
+	text-align: center;
+	/* color: aqua; */
+	text-transform: capitalize;
+}
+
+button {
+	background-color: chocolate;
+	border: 0px;
+	border-radius: 50px;
+	height: 100px;
+	width: 100px;
+	color: #fff;
+	margin-top: 10px;
+}
+button:hover {
+	background-color: rgb(105, 210, 30);
+	color: rgb(10, 9, 9);
+	border-radius: 20px;
+}
+
+#checkbox {
+	background-color: black;
+}
+
+#section {
+	display: flex;
+	width: 20%;
+	align-items: center;
+	padding: 0px 5px;
+}
+#section > input {
+	margin: 0px;
+	padding: 0px;
+	width: auto;
+}
+label {
+	margin-left: 5px;
+}
+.gender {
+	border: 1px solid rgb(4, 53, 4);
+	border-radius: 30px;
+	width: 30%;
+	text-transform: uppercase;
+	margin: 20px 0px;
+}
+#gender {
+	text-align: center;
+}
+
+.gender > #section {
+	margin-left: 30px;
+}
+.male {
+	color: blue;
+}
+.female {
+	color: rgb(224, 22, 56);
+}
+
+.male:hover,
+.female:hover {
+	color: aqua;
+}
+.title {
+	text-decoration: underline;
+	text-decoration-color: cadetblue;
+	font-weight: 600;
+	text-transform: capitalize;
+}
+#line {
+	width: 100%;
+	background-color: black;
+	height: 1px;
+	margin: 50px;
+}
