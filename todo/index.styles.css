@@ -1,0 +1,29 @@
+/** @format */
+body {
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	flex-direction: column;
+	height: 70vh;
+}
+
+.title-text {
+	margin: 0;
+	font-weight: bold;
+	font-size: 46px;
+}
+.write-up {
+	margin: 0;
+	font-size: 24px;
+}
+.button-basic {
+	color: #fff;
+	padding: 0;
+	border-width: 0;
+	width: 94px;
+	height: 35px;
+	border-radius: 11px;
+	font-size: 14px;
+	font-weight: bold;
+	margin: 0;
+}
