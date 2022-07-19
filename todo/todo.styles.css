@@ -1,0 +1,71 @@
+/** @format */
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0px 20px;
+}
+
+.greeting {
+	display: flex;
+}
+
+.title {
+	margin: 0;
+	font-weight: bold;
+	font-size: 46px;
+}
+
+.list-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.list-item {
+	align-items: center;
+	list-style: none;
+	display: flex;
+}
+.label {
+	margin: 0px 0px 0px 10px;
+}
+
+.list {
+	width: 20%;
+}
+
+.checked {
+	text-decoration: line-through;
+}
+
+#greeting {
+	font-weight: bold;
+}
+
+#pending {
+	font-weight: 400;
+}
+
+#logout {
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+#user {
+	width: 60px;
+	height: 65px;
+}
+
+#add-task-container {
+	display: flex;
+	justify-content: center;
+	margin: 90px 0px 0px 0px;
+}
+#bin {
+	width: 20px;
+	height: 25px;
+	margin: 0px 10px 0px 0px;
+}

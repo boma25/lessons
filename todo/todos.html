@@ -6,47 +6,51 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./todo.styles.css" />
+		<link rel="stylesheet" href="./utilities.styles.css" />
 		<title>Document</title>
 	</head>
 	<body>
-		<div>
-			<div>
-				<img src="./assets/user.svg" />
+		<div class="header">
+			<div class="greeting">
+				<img src="./assets/user.svg" id="user" />
 				<div>
-					<p>Hi Shobhit 👋🏽</p>
-					<p>4 tasks pending</p>
+					<p id="greeting" class="text-color-primary">
+						Hi Shobhit 👋🏽<br />
+						<span id="pending" class="text-color-red">4 tasks pending</span>
+					</p>
 				</div>
 			</div>
-			<h1>TaskDo</h1>
-			<a href="./index.html">Logout</a>
+			<h1 class="text-color-primary title">TaskDo</h1>
+			<a href="./index.html" id="logout" class="text-color-secondary">Logout</a>
 		</div>
 
-		<div>
+		<div id="add-task-container">
 			<img src="./assets//add.svg" />
-			<input type="text" placeholder="add new task" />
+			<input type="text" placeholder="add new task" class="text-input" />
 		</div>
 
-		<div>
-			<ul>
-				<li>
-					<img src="./assets/bin.svg" />
-					<input type="checkbox" />
-					<label>Morning walk</label>
+		<div class="list-container">
+			<ul class="list">
+				<li class="list-item">
+					<img src="./assets/bin.svg" id="bin" />
+					<input type="checkbox" checked onclick="return false;" />
+					<label class="label checked">Morning walk</label>
 				</li>
-				<li>
-					<img src="./assets/bin.svg" />
+				<li class="list-item">
+					<img src="./assets/bin.svg" id="bin" />
 					<input type="checkbox" />
-					<label>Lunch</label>
+					<label class="label">Lunch</label>
 				</li>
-				<li>
-					<img src="./assets/bin.svg" />
+				<li class="list-item">
+					<img src="./assets/bin.svg" id="bin" />
 					<input type="checkbox" />
-					<label>Dinner with Shobhit</label>
+					<label class="label">Dinner with Shobhit</label>
 				</li>
-				<li>
-					<img src="./assets/bin.svg" />
+				<li class="list-item">
+					<img src="./assets/bin.svg" id="bin" />
 					<input type="checkbox" />
-					<label>Night Reading</label>
+					<label class="label">Night Reading</label>
 				</li>
 			</ul>
 		</div>
